@@ -1,5 +1,5 @@
 {
-  "central_repository": "janjusolja/automation",
+  "central_repository": "janjusolja/automation-test",
   "branch": "main",
   "automation_path": "run_automation.sh",
   "work_packages": [
