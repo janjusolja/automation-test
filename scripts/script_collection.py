@@ -85,7 +85,7 @@ def change_octave(active_dom: dict, context_doms: list, addOctave: int, **addarg
 
     for note in notes:
         # add add_octave to original value of @oct
-        new_oct = int(note.get("oct")) + add_octave
+        new_oct = int(note.get("oct")) + addOctave
         # check whether new oct value lies outside of SPN values, if so - skip
         if new_oct < 0 or new_oct > 9:
             output_message += (f"New octave value for note with xml:id '{note.get(XML_ID, 'unspecified')}' would be outside of SPN values - skipped.\n")
