@@ -20,7 +20,7 @@
         "script_collection.add_sbs_every_n"
       ],
       "commitResult": true
-    }
+    },
     {
       "id": "change_oct",
       "label": "Change octave of piece",
